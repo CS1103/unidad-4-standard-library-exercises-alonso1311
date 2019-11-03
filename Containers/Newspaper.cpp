@@ -39,7 +39,7 @@ void Newspaper() {
 
         for(size_t k = 0; k < number_lines; k++) {
             string line;
-            getline(cin, line);
+            getline(cin, line, '\n');
 
             for(char char_to_paid : line) {
                 auto search = table.find(char_to_paid);

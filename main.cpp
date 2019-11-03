@@ -1,19 +1,23 @@
-#include <iostream>
 #include"Containers/Permutation_Arrays.cpp"
 #include"Containers/Newspaper.cpp"
-//#include"Containers/One_little_etc.cpp"
+
+#include"Algoritmos/ID_Codes.cpp"
 
 using namespace std;
 
 int main() {
+    //-------Containers----------------------------------
+
     //-Containers <vector>
     Permutation_Arrays<string>();
 
     //-Containers <bitset>
     Newspaper();
    
-    //-Containers <unsorted_map>
-    //One_little_etc();
+    //--------Algoritmos----------------------------------
+
+    //- Algoritmos (next permutation)
+    ID_Codes();
 
   return 0;
 }
