@@ -4,7 +4,7 @@
 - [x] Newspaper
 - [ ] 1 Little, 2 Little, 3 Little Endians
 - [x] ID Codes
-- [ ] Football (aka Soccer)
+- [x] Football (aka Soccer)
 - [ ] Contest Scoreboard
 - [ ] Train Swapping
 - [ ] DNA Sorting
