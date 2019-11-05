@@ -13,7 +13,7 @@
 - [ ] Open Source
 - [ ] Hoax or what
 
-##¿Cómo descargar librería boost? (Ubuntu)
+## ¿Cómo descargar librería boost? (Ubuntu)
 - Intenta lo siguiente:
 
     $ sudo apt-get install libboost
