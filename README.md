@@ -16,7 +16,7 @@
 ## ¿Cómo descargar librería boost? (Ubuntu)
 - Intenta lo siguiente:
 
-    $ sudo apt-get install libboost
+    * $ sudo apt-get install libboost
 
 - Si NO funciona, haz lo siguiente:
 
