@@ -5,28 +5,29 @@
 #include"Algoritmos/Football.cpp"
 
 #include"Sort/Train_Swapping.cpp"
+#include"Sort/DNA_Sorting.cpp"
 
 using namespace std;
 
 int main() {
-    //-------Containers----------------------------------
+/*    //-------Containers----------------------------------
 
-    //-Containers <vector>
     Permutation_Arrays<string>();
 
-    //-Containers <bitset>
     Newspaper();
    
 
     //--------Algoritmos----------------------------------
 
-    //- Algoritmos (next permutation)
     ID_Codes();
 
-    //- Algoritmos (sort multi-fields)
     Football();
 
     //--------Sort----------------------------------
-    Train_Swapping();
+
+    Train_Swapping();*/
+
+    DNA_Sorting();
+
   return 0;
 }

@@ -7,7 +7,7 @@ using namespace std;
 
 int inversion(string s1) {
     int count_inversion = 0;
-    for(size_t i = 0; i < s1.size(); i++)
+    for(size_t i = 0; i < s1.size()-1; i++)
         for(size_t j = i; j < s1.size()-i-1; j++)
             if(s1[i] > s1[j])
                 count_inversion++;
@@ -22,6 +22,7 @@ void DNA_Sorting() {
 
     cout << endl;
 
+    vector<vector<string>> result;
     for(; number_cases > 0; number_cases--) {
         size_t size_DNA, number_DNA;
         cin >> size_DNA >> number_DNA;
@@ -39,13 +40,12 @@ void DNA_Sorting() {
 
         stable_sort(begin(v_DNA), end(v_DNA), [](string s1, string s2){return inversion(s1) < inversion(s2);});
         
-        for(const auto& i : v_DNA)
-            cout << i << endl;
+        result.push_back(v_DNA);
     }
 
-}
-
-int main() {
-    DNA_Sorting(); 
-    return 0;
+    for(auto i : result) {
+        for(auto j : i)
+            cout << j << endl;
+        cout << endl;
+    }
 }

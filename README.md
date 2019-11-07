@@ -7,7 +7,7 @@
 - [x] Football (aka Soccer)
 - [ ] Contest Scoreboard
 - [x] Train Swapping
-- [ ] DNA Sorting
+- [x] DNA Sorting
 - [ ] Ultra QuickSort
 - [ ] Hardwood Species
 - [ ] Open Source
