@@ -7,8 +7,8 @@ using namespace std;
 
 template<typename CONTAINER>
 void print_swaps(CONTAINER container) {
-    for(auto i = begin(container); i != end(container); i++)
-        cout << "Optimal train swapping takes " << *i << " swaps";
+    for(auto i = begin(container); i != end(container); i++) 
+        cout << "Optimal train swapping takes " << *i << " swaps\n";
 }
 
 template<typename CONTAINER>
@@ -33,8 +33,7 @@ void Train_Swapping() {
     cin >> number_cases;
     cin.ignore();
 
-    vector<int> results;
-
+    vector<int> result;
     for(; number_cases > 0; number_cases--) {
         size_t quantity_numbers;
         cin >> quantity_numbers;
@@ -48,9 +47,9 @@ void Train_Swapping() {
             numbers.push_back(temp_number);
         }
 
-        results.push_back(BubbleSort(numbers));
+        result.push_back(BubbleSort(numbers));
     }
 
     cout << endl;
-    print_swaps(results);
+    print_swaps(result);
 }
