@@ -4,6 +4,8 @@
 #include"Algoritmos/ID_Codes.cpp"
 #include"Algoritmos/Football.cpp"
 
+#include"Sort/Train_Swapping.cpp"
+
 using namespace std;
 
 int main() {
@@ -15,6 +17,7 @@ int main() {
     //-Containers <bitset>
     Newspaper();
    
+
     //--------Algoritmos----------------------------------
 
     //- Algoritmos (next permutation)
@@ -23,5 +26,7 @@ int main() {
     //- Algoritmos (sort multi-fields)
     Football();
 
+    //--------Sort----------------------------------
+    Train_Swapping();
   return 0;
 }

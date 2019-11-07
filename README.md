@@ -6,7 +6,7 @@
 - [x] ID Codes
 - [x] Football (aka Soccer)
 - [ ] Contest Scoreboard
-- [ ] Train Swapping
+- [x] Train Swapping
 - [ ] DNA Sorting
 - [ ] Ultra QuickSort
 - [ ] Hardwood Species
