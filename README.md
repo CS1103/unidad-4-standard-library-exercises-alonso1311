@@ -8,8 +8,8 @@
 - [ ] Contest Scoreboard
 - [x] Train Swapping
 - [x] DNA Sorting
-- [ ] Ultra QuickSort
-- [ ] Hardwood Species
+- [x] Ultra QuickSort
+- [x] Hardwood Species
 - [ ] Open Source
 - [ ] Hoax or what
 
