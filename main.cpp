@@ -6,6 +6,9 @@
 
 #include"Sort/Train_Swapping.cpp"
 #include"Sort/DNA_Sorting.cpp"
+#include"Sort/Ultra_QuickSort.cpp"
+
+#include"Assosiative/Hardwood_Species.cpp"
 
 using namespace std;
 
@@ -25,9 +28,18 @@ int main() {
 
     //--------Sort----------------------------------
 
-    Train_Swapping();*/
+    Train_Swapping();
 
     DNA_Sorting();
+
+    Ultra_QuickSort<vector<int>>();
+
+    //--------Assosiative----------------------------------
+
+    Hardwood_Species();*/
+
+
+
 
   return 0;
 }
