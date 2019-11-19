@@ -11,7 +11,7 @@
 - [x] Ultra QuickSort
 - [x] Hardwood Species
 - [ ] Open Source
-- [ ] Hoax or what
+- [x] Hoax or what
 
 ## ¿Cómo descargar librería boost? (Ubuntu)
 - Intenta lo siguiente:

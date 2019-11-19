@@ -27,7 +27,8 @@ void Open_Source() {
         
         else {
             if(upp(line)){
-                project[line] = 0;
+                string name = line;
+                project[name] = 0;
             }
             else {
                 project[line]++;
@@ -39,14 +40,7 @@ void Open_Source() {
 }
 
 int main() {
-    //Open_Source();
-    
-    std::string str = "Hello World";
-
-    string temp = str;
-    boost::to_upper(temp);
-
-    cout << str << endl << temp;
+    Open_Source();
 
     return 0;
 }
