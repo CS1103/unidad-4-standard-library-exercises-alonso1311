@@ -2,7 +2,7 @@
 
 - [x] Permutation Arrays
 - [x] Newspaper
-- [ ] 1 Little, 2 Little, 3 Little Endians
+- [x] 1 Little, 2 Little, 3 Little Endians
 - [x] ID Codes
 - [x] Football (aka Soccer)
 - [ ] Contest Scoreboard

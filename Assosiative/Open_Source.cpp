@@ -19,24 +19,33 @@ bool upp(string str) {
 
 void Open_Source() {
     string line;
+    string name;
     map<string, int> project;
+    set<string> temp;
     while(true) {
         getline(cin, line, '\n');
         if(line == "0")
             break;
         
         else {
+            int count = 0;
             if(upp(line)){
-                string name = line;
-                project[name] = 0;
+                name = line;
+                project[name];
             }
             else {
-                project[line]++;
+                temp.insert(line);
+                cout << endl << line << endl;
+                count++;
             }
-        }
+            project[name] = count;
+       }
     }
     for(const auto& i : project)
             cout << i.first << " " << i.second << endl;
+
+    for(const auto& i : temp)
+        cout << i << " ";
 }
 
 int main() {

@@ -1,5 +1,6 @@
 #include"Containers/Permutation_Arrays.cpp"
 #include"Containers/Newspaper.cpp"
+#include"Containers/Little.cpp"
 
 #include"Algoritmos/ID_Codes.cpp"
 #include"Algoritmos/Football.cpp"
@@ -19,6 +20,8 @@ int main() {
     Permutation_Arrays<string>();
 
     Newspaper();
+
+    Little();
    
 
     //--------Algoritmos----------------------------------
